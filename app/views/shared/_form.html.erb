@@ -1,0 +1,14 @@
+<% _action =  %>
+
+
+<h1>Signup!</h1>
+
+<form  action="<%= users_url %>" method="post">
+  <label for="username">Username</label>
+  <input id="username" type="text" name="user[username]" value="">
+
+  <label for="password">Password</label>
+  <input id="password" type="password" name="user[password]" value="">
+
+  <input type="submit" name="" value="signup">
+</form>
